@@ -23,7 +23,7 @@ for i in range(0,n):
     interest=balance*t/1200
     principal=m-interest
     balance-=principal
-    print "|{0:^15}|{1:^15}|{2:^15}|{3:^15}|".format(periode,round(interest,2),round(principal,2),round(balance,2))
+    print "|{0:^15}|{1:^15.2f}|{2:^15.2f}|{3:^15.2f}|".format(periode,interest,principal,balance)
 print "|{0:=<63}|".format("")
 
 
